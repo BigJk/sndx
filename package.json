@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "CLI Utility to use modern bundler for Templates & Generators.",
   "main": "index.js",
+  "bin": {  
+    "sndx": "./index.js"
+  },
   "dependencies": {
     "color-convert": "^2.0.1",
     "ansi-styles": "^4.3.0",
