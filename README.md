@@ -1,5 +1,13 @@
 # Sales & Dungeons Advanced
 
+## Install
+
+```
+npm install --global BigJk/sndx
+```
+
+## CLI
+
 CLI Utility to use modern bundler for Templates & Generators
 
 ```
@@ -17,7 +25,7 @@ Options:
 Not enough non-option arguments: got 0, need at least 1
 ```
 
-## ``sndx init``
+### ``sndx init``
 
 This command will create all the files needed to develop a S&D Template or Generator in conjunction with a modern bundler. This makes the development process a bit more like typical web-dev. You can include scripts, images, etc. from other files and the bundler will bundle it to a single ``print.html.njk``. After running ``npm run build`` the folder should be importable in S&D.
 
